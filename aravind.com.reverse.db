@@ -1,0 +1,15 @@
+$TTL 1D
+@	IN SOA	master.aravind.com. root.master.aravind.com. (
+					6	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	NS	master.aravind.com.
+@	NS	slave.aravind.com.
+@	A	172.25.250.9
+@	A	172.25.250.10
+9.250	PTR	master.aravind.com.
+10.250	PTR	slave.aravind.com.
+11.250	PTR	client.aravind.com.
+
