@@ -1,0 +1,13 @@
+$TTL 1D
+@	IN SOA	master.aravind.com. root.master.aravind.com. (
+					3	; serial
+					1D	; refresh
+					1H	; retry
+					1W	; expire
+					3H )	; minimum
+@	IN NS	master.aravind.com.
+@	IN NS	slave.aravind.com.
+@	IN A	172.25.250.9
+master	IN A	172.25.250.9
+slave	IN A	172.25.250.10
+client	IN A	172.25.250.11
